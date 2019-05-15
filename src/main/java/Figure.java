@@ -1,3 +1,2 @@
-public interface Figure {
-    void displayFigure();
+public abstract class Figure implements Drawable{
 }

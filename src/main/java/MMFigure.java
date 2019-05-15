@@ -1,4 +1,4 @@
-public class MMFigure implements Figure{
+public class MMFigure extends Figure{
     private int number;
     private final int numOfUpperParts = 5;
     private final int numOfLowerParts = 7;
@@ -19,7 +19,7 @@ public class MMFigure implements Figure{
     }
 
     @Override
-    public void displayFigure() {
+    public void draw() {
         displayUpperPart();
         displayLowerPart();
     }

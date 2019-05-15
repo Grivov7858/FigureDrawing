@@ -13,6 +13,6 @@ public class Main {
         }
 
         Figure figure = new MMFigure(number);
-        figure.displayFigure();
+        figure.draw();
     }
 }
